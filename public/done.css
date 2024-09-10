@@ -1,0 +1,41 @@
+* {
+  background: #fbfffb;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 1px 5px 15px #00000026;
+  flex-direction: column;
+}
+
+.green {
+  background: #9dff901c;
+  color: #19700d;
+  border: 1px solid #6ce65c7a;
+}
+
+.red {
+  background-color: #ff868630;
+  color: black;
+  border: 1px solid #e65c5c7a;
+}
+
+h2 {
+  background: transparent;
+}
+
+#chk {
+  width: fit-content;
+  height: 20px;
+  padding: 5px;
+  margin: 10px auto;
+  background: transparent;
+}
