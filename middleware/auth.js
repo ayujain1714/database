@@ -8,6 +8,7 @@ function restrictToLoggedinUserOnly(req, res, next) {
 
   const user = getUser(userUid);
   if (!user) return res.json({ message: "no user" });
+  console.log(user);
   req.user = user;
   next();
 }
